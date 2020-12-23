@@ -1,0 +1,24 @@
+{
+  "name": "hillwillcodeforpancakes",
+  "version": "1.0.0",
+  "description": "my portoflio site",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx.json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "author": "Hill Onyechekwa",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.29.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
